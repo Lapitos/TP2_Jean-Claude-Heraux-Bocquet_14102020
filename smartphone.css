@@ -1,0 +1,29 @@
+/* pour les écrans inférieurs à 600px */
+
+/* commun */
+
+@media only screen and (max-width:600px) {
+    body {
+    background-color: white;
+    color:black;
+    }
+    
+    li a:hover
+{
+    background-color: white;
+    color: #0065fc;
+    border-top: #0065fc solid 5px;
+}
+
+/* zone de recherche */
+
+.submit
+{
+    width: 50px;
+	background: url(images/icon/search-solid.svg) no-repeat center;
+    background-color: #0065fc;
+    border-radius: 20px;
+	color: transparent;
+	background-size: 30px;
+}
+
