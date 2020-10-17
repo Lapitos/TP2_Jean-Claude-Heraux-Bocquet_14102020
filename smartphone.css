@@ -2,18 +2,35 @@
 
 /* commun */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:850px) {
     body {
     background-color: white;
     color:black;
+    font-size: 0.9em;
     }
+
+    li
+{
+    list-style-type: none;
+    flex-direction: row-reverse;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
     
     li a:hover
 {
     background-color: white;
     color: #0065fc;
-    border-top: #0065fc solid 5px;
+    border-top: #ffffff solid 2px;
+    border-bottom: #0065fc solid 2px;
 }
+    h2 
+    {
+        font-size: 1.2em;
+    }
+
 
 /* zone de recherche */
 
@@ -27,3 +44,7 @@
 	background-size: 30px;
 }
 
+.filtre
+{
+    flex-direction: column;
+}
