@@ -2,17 +2,20 @@
 
 /* commun */
 
-@media only screen and (max-width:850px) {
-    body {
+@media only screen and (max-width:800px) 
+{
+    body 
+    {
     background-color: white;
     color:black;
     font-size: 0.9em;
     }
 
-    li
+    ul
 {
     list-style-type: none;
-    flex-direction: row-reverse;
+    display: flex;
+	flex-wrap: wrap;
     padding-left: 0;
     margin-right: 20px;
     margin-left: 20px;
@@ -28,8 +31,14 @@
 }
     h2 
     {
+        font-size: 1.1em;
+    }
+
+    li 
+    {
         font-size: 1.2em;
     }
+}
 
 
 /* zone de recherche */
@@ -47,4 +56,26 @@
 .filtre
 {
     flex-direction: column;
+}
+
+/* partie cadre photo */
+
+.row
+{
+    flex-direction: column;
+
+}
+
+.col1
+{
+    width:90%;
+    margin-bottom: 20px;
+    display: flex;
+	flex-direction: column;
+}
+
+.col2
+{
+    width:90%;
+    margin-bottom: 20px;
 }

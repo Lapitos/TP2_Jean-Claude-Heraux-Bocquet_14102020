@@ -3,9 +3,10 @@
 h1 { font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 h2 { font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 21.4px; }  
 h3 {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
-p {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 10px; } 
-blockquote {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
-pre {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+p {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 10px; } 
+blockquote {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 21px; font-style: italic; font-variant: normal; font-weight: 400; line-height: 30px; } 
+body {font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif"; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
 
 
 /* Barre de navigation */
@@ -128,7 +129,65 @@ li a:hover
     margin-right: 10px;
 }
 
-.ville{
+.ville
+{
     margin: 0px;
     font-size: 0.9em; 
+}
+
+/* cadre des photos hebergement*/
+
+.row
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.col1
+{
+	width:60%;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.col2
+{
+	width:30%;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.card 
+{
+	padding: 10px;
+	text-align: left;
+	background-color: #ffffff;
+	width: 225px;
+	border-radius: 20px;
+	margin: 30px;
+}
+
+.photo
+{
+	flex-direction: column;
+	width: 225px;
+	height: 100px;
+	border-radius: 20px 20px 0 0;
+
+}
+
+.etoile
+{
+	width: 10px;
 }
