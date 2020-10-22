@@ -11,9 +11,11 @@
 	<title>Réservez vos vacances de rêves</title>
 </head>
 <body>
-
-   <div class="col_nav"></div>
-	<nav> <!-- partie réservée au Logo et barre de navigation -->
+	<!-- partie réservée au Logo et barre de navigation -->
+	<header>     
+      
+  <div class="col_nav">
+	<nav> 
 		<img src="images/logo/Reservia@3x.png" width="100px" alt="Reservia" title="Reservia vous souhaite la bienvenue">
         <ul>
             <li><a href="#"><strong>Hébergements</strong></a></li>
@@ -22,16 +24,22 @@
         </ul>
     </nav>
 </div>
-    <!-- partie réservée à la zone de recherche -->
+
+</header>
+    
+    <!-- partie réservée aux slogans -->
+    <br />
+    <p><h2>Trouvez votre hébergement pour des vacances de rêve</h2></p>
+	<p class="ville">En plein centre ville ou en pleine nature</p>
+	
+	<!-- partie réservée à la zone de recherche -->
     <div class="main_search">
         <img alt="" title="que recherchez-vous ?" id="map" src="images/icon/marker.svg">
         <input class="search" type="search" name="rechercher" placeholder="Marseille, France">
         <button class="submit" type="submit">Rechercher</button>
-    </div>
-    <!-- partie réservée aux slogans et les filtres -->
-    <br />
-    <p><h2>Trouvez votre hébergement pour des vacances de rêve</h2></p>
-    <p class="ville">En plein centre ville ou en pleine nature</p>
+	</div>
+	
+	<!-- partie réservée filtres -->
 
     <div class="filtre">
             
@@ -64,32 +72,35 @@
 <div class="row">
 
 	<div class="col1">
-		<div class="title"><h3>Hébergements à Marseille</h3></div>
-		<div class="card">
-		<img class="photo" src="images/hebergements/photos/1.jpg" alt="Auberge la Cannebière" title="Auberge la Cannebière"><br />
-		<strong>Auberge la Cannebière</strong><br />
-		Nuit à partir de <strong>25€</strong><br />
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_gris.png" alt="">
-		<img class="etoile" src="images/icon/etoile_gris.png" alt="">
-		</div>
+	<div class="title"><h3>Hébergements à Marseille</h3></div>
 
-		<div class="card">
-		<img class="photo" src="images/hebergements/photos/2.jpg" alt="Hôtel du Port" title="Hôtel du Port"><br />
-		<strong>Hôtel du Port</strong><br />
-		Nuit à partir de <strong>52€</strong><br />
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-		<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+	<div class="card">
+			<img class="photo" src="images/hebergements/photos/1.jpg" alt="Auberge la Cannebière" title="Auberge la Cannebière"><br />
+			<div class="descriptif"><strong>Auberge la Cannebière</strong><br />
+			Nuit à partir de <strong>25€</strong><br />
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
+			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
+			</div>
+	</div>
+
+	<div class="card">
+			<img class="photo" src="images/hebergements/photos/2.jpg" alt="Hôtel du Port" title="Hôtel du Port"><br />
+			<div class="descriptif"><strong>Hôtel du Port</strong><br />
+			Nuit à partir de <strong>52€</strong><br />
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 		</div>
+	</div>
 
 		<div class="card">
 			<img class="photo" src="images/hebergements/photos/3.jpg" alt="Hôtel les Mouettes" title="Hôtel les Mouettes"><br />
-			<strong>Hôtel les Mouettes</strong><br />
+			<div class="descriptif"><strong>Hôtel les Mouettes</strong><br />
 			Nuit à partir de <strong>76€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -97,51 +108,53 @@
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
 			</div>
+		</div>
 
-			<div class="card">
-				<img class="photo" src="images/hebergements/photos/4.jpg" alt="Hôtel de la Mer" title="Hôtel de la Mer"><br />
-				<strong>Hôtel de la Mer</strong><br />
-				Nuit à partir de <strong>46€</strong><br />
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_gris.png" alt="">
-				<img class="etoile" src="images/icon/etoile_gris.png" alt="">
+		<div class="card">
+			<img class="photo" src="images/hebergements/photos/4.jpg" alt="Hôtel de la Mer" title="Hôtel de la Mer"><br />
+			<div class="descriptif"><strong>Hôtel de la Mer</strong><br />
+			Nuit à partir de <strong>46€</strong><br />
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
+			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
 			</div>
+		</div>
 
-			<div class="card">
-				<img class="photo" src="images/hebergements/photos/5.jpg" alt="Auberge le Panier" title="Auberge le Panier"><br />
-				<strong>Auberge le Panier</strong><br />
-				Nuit à partir de <strong>23€</strong><br />
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_gris.png" alt="">
+		<div class="card">
+			<img class="photo" src="images/hebergements/photos/5.jpg" alt="Auberge le Panier" title="Auberge le Panier"><br />
+			<div class="descriptif"><strong>Auberge le Panier</strong><br />
+			Nuit à partir de <strong>23€</strong><br />
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_gris.png" alt="">
 			</div>
+		</div>
 
-			<div class="card">
-				<img class="photo" src="images/hebergements/photos/6.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina"><br />
-				<strong>Hôtel chez Amina</strong><br />
-				Nuit à partir de <strong>96€</strong><br />
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+		<div class="card">
+			<img class="photo" src="images/hebergements/photos/6.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina"><br />
+			<div class="descriptif"><strong>Hôtel chez Amina</strong><br />
+			Nuit à partir de <strong>96€</strong><br />
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
+			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 			</div>
+		</div>
 	</div>
 
 	<div class="col2">
 
-		<div class="title2"><h3>Les plus populaires <img class="icon" src="images/icon/graph.png" alt="Graph"></h3>
-		</div>
+		<div class="title2"><h3>Les plus populaires <img class="icon" src="images/icon/graph.png" alt="Graph"></h3></div>
 
 			<div class="card2">
 				<img class="photo2" src="images/hebergements/photos/7.jpg" alt="Hôtel le Soleil du Matin" title="Hôtel le Soleil du Matin">
 	
-				<p>
-				<strong>Hôtel le Soleil du Matin</strong><br />
+				<div class="descriptif2"><strong>Hôtel le Soleil du Matin</strong><br />
 				Nuit à partir de <strong>128€</strong><br />
 		
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -149,14 +162,13 @@
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
-				</p>
+				</div>
 			</div>
 
 			<div class="card2">
 				<img class="photo2" src="images/hebergements/photos/8.jpg" alt="Au coeur de l'Eau" title="Au coeur de l'Eau">
 	
-				<p>
-				<strong>Au coeur de l'Eau - Chambres d'hôtes</strong><br />
+				<div class="descriptif2"><strong>Au coeur de l'eau  Chambres d'hôtes</strong><br />
 				Nuit à partir de <strong>71€</strong><br />
 		
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -164,14 +176,13 @@
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_gris.png" alt="">
-				</p>
+				</div>
 			</div>
 
 			<div class="card2">
 				<img class="photo2" src="images/hebergements/photos/9.jpg" alt="Hôtel Tout Bleu Tout Blanc" title="Hôtel Tout Bleu Tout Blanc">
 	
-				<p>
-				<strong>Hôtel Tout Bleu et Blanc</strong><br />
+				<div class="descriptif2"><strong>Hôtel Tout Bleu et Blanc</strong><br />
 				Nuit à partir de <strong>68€</strong><br />
 		
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -179,7 +190,7 @@
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
 				<img class="etoile" src="images/icon/etoile_gris.png" alt="">
-				</p>
+				</div>
 			</div>
 	</div>
 </div>
@@ -191,41 +202,75 @@
 	<div class="col3">
 		<div class="card3">
 		<img class="photo3" src="images/activites/photo/1.jpg" alt="Le vieux Port" title="Le vieux Port"><br />
-		<strong>Le vieux Port</strong>
+		<div class="descriptif2"><strong>Vieux Port</strong></div>
 		</div>
 	</div>
 
 	<div class="col4">
-		<div class="card3">
-		<img class="photo" src="images/activites/photo/2.jpg" alt="Fort de Pomègues" title="Fort de Pomègues"><br />
-		<strong>Fort de Pomègues</strong>
+		<div class="card4">
+		<img class="photo4" src="images/activites/photo/2.jpg" alt="Fort de Pomègues" title="Fort de Pomègues"><br />
+		<div class="descriptif2"><strong>Fort de Pomègues</strong></div>
 		</div>
 
-		<div class="card3">
-			<img class="photo" src="images/activites/photo/3.jpg" alt="Iles du Frioul" title="Iles du Frioul"><br />
-			<strong>Iles du Frioul</strong>
+		<div class="card4">
+			<img class="photo4" src="images/activites/photo/3.jpg" alt="Iles du Frioul" title="Iles du Frioul"><br />
+			<div class="descriptif2"><strong>Iles du Frioul</strong></div>
 			</div>
 	</div>
 
 	<div class="col3">
 			<div class="card3">
 				<img class="photo3" src="images/activites/photo/4.jpg" alt="Parc National des Calanques" title="Parc National des Calanques"><br />
-				<strong>Parc National des Calanques</strong>
+				<div class="descriptif2"><strong>Parc National des Calanques</strong></div>
 			</div>
 	</div>
 
 	<div class="col4">
-			<div class="card3">
-				<img class="photo" src="images/activites/photo/5.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde"><br />
-				<strong>Notre-Dame-de-la-Garde</strong>
+			<div class="card4">
+				<img class="photo4" src="images/activites/photo/5.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde"><br />
+				<div class="descriptif2"><strong>Notre-Dame-de-la-Garde</strong></div>
 			</div>
 
-			<div class="card3">
-				<img class="photo" src="images/activites/photo/6.jpg" alt="Parc Longchamp" title="Parc Longchamp"><br />
-				<strong>Parc Longchamp</strong>
+			<div class="card4">
+				<img class="photo4" src="images/activites/photo/6.jpg" alt="Parc Longchamp" title="Parc Longchamp"><br />
+				<div class="descriptif2"><strong>Parc Longchamp</strong></div>
 			</div>
 	</div>
 </div>
+
+ <!-- partie pied de page -->
+
+ <div class="row5">
+	<div class="col5">
+		<div class="title5"><h3>A propos</h3></div>
+		<br />
+		<div class="commentaire">
+		Fonctionnement du site<br />
+		Conditions générales de vente<br />
+		Données et confidentialité<br />
+		</div>
+	</div>
+
+	<div class="col5">
+		<div class="title5"><h3>Nos Hébergements</h3></div>
+		<br />
+		<div class="commentaire">
+		Charte qualité<br />
+		Soumettre votre hôtel<br />
+		</div>
+	</div>
+
+	<div class="col5">
+		<div class="title5"><h3>Assistance</h3></div>
+		<br />
+		<div class="commentaire">
+		Centre d'aide<br />
+		Nous contacter<br />
+		</div>
+	</div>
+
+
+ </div>
 
 </body>
 
