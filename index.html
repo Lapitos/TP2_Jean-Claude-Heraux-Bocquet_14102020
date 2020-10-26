@@ -12,18 +12,26 @@
 </head>
 <body>
 	<!-- partie réservée au Logo et barre de navigation -->
-	<header>     
-      
-  <div class="col_nav">
-	<nav> 
-		<img src="images/logo/Reservia@3x.png" width="100px" alt="Reservia" title="Reservia vous souhaite la bienvenue">
-        <ul>
-            <li><a href="#"><strong>Hébergements</strong></a></li>
-            <li><a href="#"><strong>Activités</strong></a></li>
-            <li><a href="#"><strong>S'inscrire</strong></a></li>
-        </ul>
-    </nav>
-</div>
+	<header>    
+
+
+		<nav> 
+			<ul>
+				<img src="images/logo/Reservia@3x.png" width="100px" alt="Reservia" title="Reservia vous souhaite la bienvenue">
+				<li><a href="#"><strong>S'inscrire</strong></a></li>
+				<li><a href="#"><strong>Activités</strong></a></li>
+				<li><a href="#"><strong>Hébergements</strong></a></li>
+			</ul>
+		</nav>
+
+		<div class="conteneur">
+			<div class="nav-item-logo"><img src="images/logo/Reservia@3x.png" width="100px" alt="Reservia" title="Reservia vous souhaite la bienvenue"></div>
+			<div class="nav-item-ins"><strong><a href="#">S'inscrire</a></strong></div>
+		</div>
+		<div class="conteneur">
+			<div class="nav-item-heb"><strong><a href="#">Hébergements</a></strong></div>
+			<div class="nav-item-act"><strong><a href="#">Activités</a></strong></div>
+		</div>
 
 </header>
     
@@ -34,9 +42,9 @@
 	
 	<!-- partie réservée à la zone de recherche -->
     <div class="main_search">
-        <img alt="" title="que recherchez-vous ?" id="map" src="images/icon/marker.svg">
-        <input class="search" type="search" name="rechercher" placeholder="Marseille, France">
-        <button class="submit" type="submit">Rechercher</button>
+        <img alt="" title="Dans quelle ville recherchez-vous ?" id="map" src="images/icon/marker.svg">
+        <input class="search" type="search" name="rechercher" placeholder="Marseille, France" title="Indiquez une ville">
+        <button class="submit" type="submit" title="Cliquez pour rechercher">Rechercher</button>
 	</div>
 	
 	<!-- partie réservée filtres -->
@@ -48,19 +56,19 @@
         </div>
         <div class="menu">
             <img alt="Economique" title="Economique" class="rondelle" src="images/icon/bill-wave.svg" width="20%">
-            <input class="cartouche" type="submit" name="rechercher" value="Economique">																										
+            <input class="cartouche" type="submit" name="rechercher" value="Economique" title="Economique">																										
         </div>
         <div class="menu">
             <img alt="Familial" title="Familial" class="rondelle" src="images/icon/child-solid.svg" width="20%">
-            <input class="cartouche" type="submit" name="rechercher" value="Familial">				
+            <input class="cartouche" type="submit" name="rechercher" value="Familial" title="Familial">				
         </div>
         <div class="menu">
             <img alt="Romantique" title="Romantique" class="rondelle" src="images/icon/heart-solid.svg" width="20%">
-            <input class="cartouche" type="submit" name="rechercher" value="Romantique">				
+            <input class="cartouche" type="submit" name="rechercher" value="Romantique" title="Romantique">				
         </div>
         <div class="menu">
             <img alt="animaux acceptés" title="animaux acceptés" class="rondelle" src="images/icon/dog-solid.svg" width="20%">
-            <input class="cartouche" type="submit" name="rechercher" value="Animaux autorisés">				
+            <input class="cartouche" type="submit" name="rechercher" value="Animaux autorisés" title="animaux acceptés">				
         </div>
     </div>
 </div>
@@ -75,7 +83,9 @@
 	<div class="title"><h3>Hébergements à Marseille</h3></div>
 
 	<div class="card">
+			<a href="images/hebergements/photos/1.jpg">
 			<img class="photo" src="images/hebergements/photos/1.jpg" alt="Auberge la Cannebière" title="Auberge la Cannebière"><br />
+			</a>
 			<div class="descriptif"><strong>Auberge la Cannebière</strong><br />
 			Nuit à partir de <strong>25€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -87,7 +97,9 @@
 	</div>
 
 	<div class="card">
+			<a href="images/hebergements/photos/2.jpg">
 			<img class="photo" src="images/hebergements/photos/2.jpg" alt="Hôtel du Port" title="Hôtel du Port"><br />
+			</a>
 			<div class="descriptif"><strong>Hôtel du Port</strong><br />
 			Nuit à partir de <strong>52€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -99,7 +111,9 @@
 	</div>
 
 		<div class="card">
+			<a href="images/hebergements/photos/3.jpg">
 			<img class="photo" src="images/hebergements/photos/3.jpg" alt="Hôtel les Mouettes" title="Hôtel les Mouettes"><br />
+			</a>
 			<div class="descriptif"><strong>Hôtel les Mouettes</strong><br />
 			Nuit à partir de <strong>76€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -111,7 +125,9 @@
 		</div>
 
 		<div class="card">
+			<a href="images/hebergements/photos/4.jpg">
 			<img class="photo" src="images/hebergements/photos/4.jpg" alt="Hôtel de la Mer" title="Hôtel de la Mer"><br />
+			</a>
 			<div class="descriptif"><strong>Hôtel de la Mer</strong><br />
 			Nuit à partir de <strong>46€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -123,7 +139,9 @@
 		</div>
 
 		<div class="card">
+			<a href="images/hebergements/photos/5.jpg">
 			<img class="photo" src="images/hebergements/photos/5.jpg" alt="Auberge le Panier" title="Auberge le Panier"><br />
+			</a>
 			<div class="descriptif"><strong>Auberge le Panier</strong><br />
 			Nuit à partir de <strong>23€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -135,7 +153,9 @@
 		</div>
 
 		<div class="card">
+			<a href="images/hebergements/photos/6.jpg">
 			<img class="photo" src="images/hebergements/photos/6.jpg" alt="Hôtel chez Amina" title="Hôtel chez Amina"><br />
+			</a>
 			<div class="descriptif"><strong>Hôtel chez Amina</strong><br />
 			Nuit à partir de <strong>96€</strong><br />
 			<img class="etoile" src="images/icon/etoile_bleue.png" alt="">
@@ -152,8 +172,9 @@
 		<div class="title2"><h3>Les plus populaires <img class="icon" src="images/icon/graph.png" alt="Graph"></h3></div>
 
 			<div class="card2">
+				<a href="images/hebergements/photos/7.jpg">
 				<img class="photo2" src="images/hebergements/photos/7.jpg" alt="Hôtel le Soleil du Matin" title="Hôtel le Soleil du Matin">
-	
+				</a>
 				<div class="descriptif2"><strong>Hôtel le Soleil du Matin</strong><br />
 				Nuit à partir de <strong>128€</strong><br />
 		
@@ -166,8 +187,9 @@
 			</div>
 
 			<div class="card2">
+				<a href="images/hebergements/photos/8.jpg">
 				<img class="photo2" src="images/hebergements/photos/8.jpg" alt="Au coeur de l'Eau" title="Au coeur de l'Eau">
-	
+				</a>
 				<div class="descriptif2"><strong>Au coeur de l'eau  Chambres d'hôtes</strong><br />
 				Nuit à partir de <strong>71€</strong><br />
 		
@@ -180,8 +202,9 @@
 			</div>
 
 			<div class="card2">
+				<a href="images/hebergements/photos/9.jpg">
 				<img class="photo2" src="images/hebergements/photos/9.jpg" alt="Hôtel Tout Bleu Tout Blanc" title="Hôtel Tout Bleu Tout Blanc">
-	
+				</a>
 				<div class="descriptif2"><strong>Hôtel Tout Bleu et Blanc</strong><br />
 				Nuit à partir de <strong>68€</strong><br />
 		
@@ -201,39 +224,51 @@
  <div class="row3">
 	<div class="col3">
 		<div class="card3">
-		<img class="photo3" src="images/activites/photo/1.jpg" alt="Le vieux Port" title="Le vieux Port"><br />
-		<div class="descriptif2"><strong>Vieux Port</strong></div>
+			<a href="images/activites/photo/1.jpg">
+			<img class="photo3" src="images/activites/photo/1.jpg" alt="Le vieux Port" title="Le vieux Port"><br />
+			<div class="descriptif2"><strong>Vieux Port</strong></div>
+			</a>
 		</div>
 	</div>
 
 	<div class="col4">
 		<div class="card4">
-		<img class="photo4" src="images/activites/photo/2.jpg" alt="Fort de Pomègues" title="Fort de Pomègues"><br />
-		<div class="descriptif2"><strong>Fort de Pomègues</strong></div>
+			<a href="images/activites/photo/2.jpg">
+			<img class="photo4" src="images/activites/photo/2.jpg" alt="Fort de Pomègues" title="Fort de Pomègues"><br />
+			<div class="descriptif2"><strong>Fort de Pomègues</strong></div>
+			</a>
 		</div>
 
 		<div class="card4">
+			<a href="images/activites/photo/3.jpg">
 			<img class="photo4" src="images/activites/photo/3.jpg" alt="Iles du Frioul" title="Iles du Frioul"><br />
 			<div class="descriptif2"><strong>Iles du Frioul</strong></div>
-			</div>
+			</a>
+		</div>
 	</div>
 
 	<div class="col3">
 			<div class="card3">
+				<a href="images/activites/photo/4.jpg">
 				<img class="photo3" src="images/activites/photo/4.jpg" alt="Parc National des Calanques" title="Parc National des Calanques"><br />
 				<div class="descriptif2"><strong>Parc National des Calanques</strong></div>
+				</a>
 			</div>
 	</div>
 
 	<div class="col4">
 			<div class="card4">
+				<a href="images/activites/photo/5.jpg">
 				<img class="photo4" src="images/activites/photo/5.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde"><br />
 				<div class="descriptif2"><strong>Notre-Dame-de-la-Garde</strong></div>
+				</a>
 			</div>
 
 			<div class="card4">
+				<a href="images/activites/photo/6.jpg">
 				<img class="photo4" src="images/activites/photo/6.jpg" alt="Parc Longchamp" title="Parc Longchamp"><br />
 				<div class="descriptif2"><strong>Parc Longchamp</strong></div>
+				</a>
 			</div>
 	</div>
 </div>
@@ -245,9 +280,9 @@
 		<div class="title5"><h3>A propos</h3></div>
 		<br />
 		<div class="commentaire">
-		Fonctionnement du site<br />
-		Conditions générales de vente<br />
-		Données et confidentialité<br />
+			<a href="#">Fonctionnement du site</a><br />
+			<a href="#">Conditions générales de vente</a><br />
+			<a href="#">Données et confidentialité</a><br />
 		</div>
 	</div>
 
@@ -255,8 +290,8 @@
 		<div class="title5"><h3>Nos Hébergements</h3></div>
 		<br />
 		<div class="commentaire">
-		Charte qualité<br />
-		Soumettre votre hôtel<br />
+			<a href="#">Charte qualité</a><br />
+			<a href="#">Soumettre votre hôtel</a><br />
 		</div>
 	</div>
 
@@ -264,8 +299,8 @@
 		<div class="title5"><h3>Assistance</h3></div>
 		<br />
 		<div class="commentaire">
-		Centre d'aide<br />
-		Nous contacter<br />
+			<a href="#">Centre d'aide</a><br />
+			<a href="#">Nous contacter</a><br />
 		</div>
 	</div>
 

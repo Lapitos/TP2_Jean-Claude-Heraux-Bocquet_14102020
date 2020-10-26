@@ -18,7 +18,7 @@ h3
 {
     font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif";
     font-size: 18px;
-    font-style: normal;
+    font-style: bold;
 }
 
 p
@@ -32,22 +32,22 @@ p
 
 /* Barre de navigation */
 
-
 a
 {
-    text-decoration: none;
     color: #0065fc;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 li
 {
+    font-family: 'Raleway', 'Time New Roman', Verdana, 'Geneva', sans-serif;
+    font-size: 1.2em;
     list-style-type: none;
+    padding-left: 40px;
     float: right;
     padding-left: 0;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 1.9em;
+    margin: 20px
 }
 
 li a
@@ -58,28 +58,32 @@ li a
 
 li a:hover
 {
-    background-color: white;
+
     color: #000000;
-    border-top: #0065fc solid 2px;
+    border-top: #0065fc solid 1px;
+    padding-top: 20px;
 }
 
-ul
+a:hover
 {
-    float: right;
     list-style-type: none;
-    display: flex;
-	flex-wrap: wrap;
-    padding-left: 0;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
 }
 
-.col_nav
+
+nav
 {
-    align-items: center;
+    display: inline-block;
+    flex-direction: row-reverse;
+    width: 95%;
+    font-size: 1.2em;
 }
 
+.conteneur
+{
+    display: none;
+}
 
  /*zone de recherche */
 
@@ -251,7 +255,7 @@ ul
     display: flex;
 	padding: 3px;
 	background-color: #ffffff;
-	width: 250px;
+	width: 300px;
 	border-radius: 20px;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -291,13 +295,13 @@ ul
 .descriptif
 {
     margin-left: 10px;
+    padding-top: 10px;
     font-size: 1.2em;
 }
 
 .descriptif2
 {
-    margin-left: 10px;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 1.2em;
 }
 
@@ -314,7 +318,8 @@ ul
 .row3
 {
 	display: flex;
-	flex-direction: row;
+    flex-direction: row;
+    align-content: center;
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -329,13 +334,14 @@ ul
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    vertical-align: middle;
 }
 
 .card3 
 {
     vertical-align: middle;
 	padding: 0px;
-    width: 400px;
+    width: 90%;
 	border-radius: 20px;
     margin: 25px;
     box-shadow: 1px 1px 12px #555;
@@ -343,7 +349,7 @@ ul
 
 .photo3
 {
-    width: 350px;
+    width: 100%;
     height: 500px;
 	border-radius: 20px 20px 0 0;
 
@@ -351,6 +357,7 @@ ul
 
 .col4
 {
+    vertical-align: middle;
 	width:25%;
 	border-radius: 20px;
 	display: flex;
@@ -369,19 +376,26 @@ ul
 
 .card4 
 {
-	padding: 0px;
-    width: 300px;
+    width: 90%;
 	border-radius: 20px;
-    margin: 35px;
+    margin-left: 35px;
     box-shadow: 1px 1px 12px #555;
 }
 
 .photo4
 {
-	width: 300px;
-    height: 200px;
+	width: 100%;
+    height: 100%;
 	border-radius: 20px 20px 0 0;
 
+}
+
+.gallery
+{
+	display: block;
+	position: absolute;
+	margin-left: 8px;
+	margin-top: 10px;
 }
 
 /* partie pied de page */
