@@ -149,6 +149,8 @@ nav
     margin: 10px;
 }
 
+
+
 /* zone des filtres */
 
 .main
@@ -194,6 +196,11 @@ nav
     font-weight: bold;
     padding-left: 15px;
     margin-right: 10px;
+}
+
+.cartouche:hover
+{
+    background-color: pink;
 }
 
 .ville
