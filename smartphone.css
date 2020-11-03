@@ -15,26 +15,14 @@
         font-size: 1.1em;
     }
     
-    a:hover
-    {
-    list-style-type: none;
-    text-decoration: none;
-    color: #000000;
-    border-bottom: #0065fc solid 3px;
-    padding-bottom: 10px;
-    }
-
-    a
-    {
-    color:#0065fc;
-    text-decoration: none;
-    list-style-type: none;
-    }
-
-
 }
 
 /* Barre de navigation */
+
+.logo
+{
+    width: 100px;
+}
 
 nav
 {
@@ -45,33 +33,51 @@ nav
 {
     display: flex;
     width: 95%;
-    align-items: center;
 }
 
-.nav-item-logo
+.conteneur2
 {
-    width: 80%;
+    display: flex;
+    width: 100%;
+    align-content: space-between;
 }
+
 
 .nav-item-ins
 {
-    width: 14%;
+    width: 100%;
     font-size: 1.1em;
+    text-align: right;
+    margin-right: 10px;
 }
 
 .nav-item-heb
 {
-    width: 50%;
+
     margin-left: 20%;
     font-size: 1.1em;
+
+}
+
+.nav-item-heb:hover
+{
+    border-bottom: #0065fc solid 1px;
+    padding-bottom: 10px;
 
 }
 
 .nav-item-act
 {
-    width: 50%;
+
     margin-left: 20%;
     font-size: 1.1em;
+}
+
+.nav-item-act:hover
+{
+    border-bottom: #0065fc solid 1px;
+    padding-bottom: 10px;
+    border:
 }
 
 
@@ -132,31 +138,27 @@ nav
 
 .card
 {
-    width: 400px;
-    max-width: 400px;
-    min-width: 300px;
+    width: 99%;
+    min-width: 200px;
+
 }
 
 .photo
 {
-    width: 400px;
-    height: 200px;
-    max-width: 400px;
-    min-width: 300px;
+    width: 100%;
 	border-radius: 20px 20px 0 0;
 
 }
 
 .card2 
 {
-    width: 75%;
+    width: 85%;
 }
 
 .photo2
 {
-    width: 150px;
-    min-width: 150px;
-	height: 150px;
+    width: 50%;
+	height: 110px;
 	border-radius: 20px 0 0 20px;
 }
 

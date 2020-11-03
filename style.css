@@ -32,6 +32,11 @@ p
 
 /* Barre de navigation */
 
+.logo
+{
+    width: 7%;
+}
+
 a
 {
     color: #0065fc;
@@ -54,14 +59,20 @@ li a
 {
     text-decoration: none;
     color: #0065fc;
+
+}
+
+li:hover
+{
+
+    color: #000000;
+
 }
 
 li a:hover
 {
-
-    color: #000000;
     border-top: #0065fc solid 1px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 a:hover
@@ -83,6 +94,13 @@ nav
 .conteneur
 {
     display: none;
+    width: 100%;
+}
+
+.conteneur2
+{
+    display: none;
+    width: 100%;
 }
 
  /*zone de recherche */
@@ -215,20 +233,17 @@ nav
 	padding: 3px;
 	text-align: left;
 	background-color: #ffffff;
-    width: 200px;
-    max-width: 200px;
-    min-width: 200px;
+    width: 28%;
 	border-radius: 20px;
-    margin: 30px;
+    margin: 20px;
     box-shadow: 1px 1px 12px #555;
 }
 
 .photo
 {
-    width: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    height: 100px;
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
 	border-radius: 20px 20px 0 0;
 
 }
