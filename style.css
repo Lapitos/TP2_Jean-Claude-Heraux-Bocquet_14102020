@@ -167,6 +167,14 @@ nav
 
 /* zone des filtres */
 
+.ec_menu
+{
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    color: black;
+}
+
 .main
 {
     display: flex;

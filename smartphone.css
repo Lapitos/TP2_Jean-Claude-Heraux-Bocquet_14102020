@@ -120,6 +120,9 @@ nav
 	background-size: 20px;
 }
 
+/* zone de filtres */
+
+
 .filtre
 {
     flex-direction: column;
