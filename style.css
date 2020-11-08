@@ -55,6 +55,7 @@ a
 {
     list-style-type: none;
     text-decoration: none;
+    color:#000000;
 }
 
 li
@@ -92,7 +93,7 @@ a:hover
 {
     list-style-type: none;
     text-decoration: none;
-    color: #000000;
+    color: #0065fc;
 }
 
 
