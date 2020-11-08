@@ -1,8 +1,8 @@
-/* pour les écrans inférieur ou égal à 850px */
+/* pour les écrans inférieur ou égal à 1150px */
 
 /* commun */
 
-@media only screen and (max-width: 850px) 
+@media only screen and (max-width: 1150px) 
 {
     body 
     {
