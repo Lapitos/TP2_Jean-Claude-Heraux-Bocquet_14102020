@@ -11,14 +11,12 @@ h2
 {
     font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif";
     font-size: 20px;
-    font-style: bold;
 }
 
 h3
 {
     font-family: 'Raleway', "Time New Roman', Verdana, Geneva, sans-serif";
     font-size: 18px;
-    font-style: bold;
 }
 
 p
@@ -51,7 +49,6 @@ p
 
 a
 {
-    color: #000000;
     list-style-type: none;
     text-decoration: none;
 }
@@ -124,7 +121,7 @@ nav
 
 #map
 {
-   border: solid 2px #f2f2f2;
+   
    background-color: #f2f2f2;
    padding: 15px;
    margin-top: 20px;
@@ -150,9 +147,9 @@ nav
     border-left: none;
     border-color: #0065fc;
     background-color: #0065fc;
+    font-size: 1.2em;
     color: white;
     border-radius: 0 20px 20px 0;
-    font-weight: bold;
 }
 
 .info
@@ -404,7 +401,7 @@ nav
 
 .photo3:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .col4
@@ -444,7 +441,7 @@ nav
 
 .photo4:hover
 {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .gallery

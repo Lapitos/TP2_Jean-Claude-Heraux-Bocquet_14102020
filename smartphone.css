@@ -31,6 +31,7 @@ nav
 
 .conteneur
 {
+
     display: flex;
     width: 95%;
 }
@@ -46,6 +47,7 @@ nav
 .nav-item-ins
 {
     width: 100%;
+    color: #0065fc;
     font-size: 1.1em;
     text-align: right;
     margin-right: 10px;
@@ -53,30 +55,47 @@ nav
 
 .nav-item-heb
 {
-
     margin-left: 20%;
     font-size: 1.1em;
-
-}
-
-.nav-item-heb:hover
-{
-    border-bottom: #0065fc solid 1px;
-    padding-bottom: 10px;
 
 }
 
 .nav-item-act
 {
-
     margin-left: 20%;
     font-size: 1.1em;
 }
 
-.nav-item-act:hover
+.row-dec
 {
-    border-bottom: #0065fc solid 1px;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    width: 100%;
+    height:5px;
+    margin-top:10px;
+}
+
+.col-dec1
+{
+    width:50%;
+	background-color: #f2f2f2;
+}
+
+.col-dec1:hover
+{
+    background-color: #0065fc;
+}
+
+.col-dec2
+{
+    width:50%;
+	background-color: #f2f2f2;
+}
+
+.col-dec2:hover
+{
+    background-color: #0065fc;
 }
 
 
@@ -93,16 +112,17 @@ nav
     width: 70px;
 	background: url('images/icon/search-solid.svg') no-repeat center;
     background-color: #0065fc;
+    color: #0065fc;
+    font-size: 0.1em;
     border-radius: 20px;
     margin-left: -20px;
-	color: transparent;
 	background-size: 20px;
 }
 
 .filtre
 {
     flex-direction: column;
-    align-items: left;
+    align-items : flex-start;
 }
 
 
