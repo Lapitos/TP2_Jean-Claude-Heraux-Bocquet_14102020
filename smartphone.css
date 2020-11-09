@@ -65,7 +65,11 @@ nav
     color: #000000;
     margin-left: 20%;
     font-size: 1.1em;
+}
 
+.nav-item-heb:hover
+{
+    border-bottom: 5px solid #0065fc;
 }
 
 .nav-item-act
@@ -73,6 +77,11 @@ nav
     color: #000000;
     margin-left: 20%;
     font-size: 1.1em;
+}
+
+.nav-item-act:hover
+{
+    border-bottom: 5px solid #0065fc;
 }
 
 .row-dec
