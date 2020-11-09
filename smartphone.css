@@ -67,11 +67,7 @@ nav
     font-size: 1.1em;
 }
 
-.nav-item-heb:hover
-{
-    border-top: 2px solid #0065fc;
 
-}
 
 .nav-item-act
 {
@@ -80,11 +76,7 @@ nav
     font-size: 1.1em;
 }
 
-.nav-item-act:hover
-{
-    border-top: 2px solid #0065fc;
 
-}
 
 .row-dec
 {
