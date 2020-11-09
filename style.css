@@ -72,8 +72,6 @@ li
 li a
 {
     text-decoration: none;
-    color: #0065fc;
-
 }
 
 li:hover
@@ -103,6 +101,11 @@ nav
     flex-direction: row-reverse;
     width: 95%;
     font-size: 1.2em;
+}
+
+.ins
+{
+    color: #0065fc;
 }
 
 .conteneur

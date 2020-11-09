@@ -14,7 +14,13 @@
     {
         font-size: 1.1em;
     }
-    
+
+    p 
+    {
+        color: #0065fc;
+        font-size: medium;
+        font-weight: bolder;
+    }    
 }
 
 /* Barre de navigation */
@@ -32,9 +38,9 @@ nav
 
 .conteneur
 {
-
     display: flex;
     width: 95%;
+
 }
 
 .conteneur2
@@ -56,6 +62,7 @@ nav
 
 .nav-item-heb
 {
+    color: #000000;
     margin-left: 20%;
     font-size: 1.1em;
 
@@ -63,6 +70,7 @@ nav
 
 .nav-item-act
 {
+    color: #000000;
     margin-left: 20%;
     font-size: 1.1em;
 }
