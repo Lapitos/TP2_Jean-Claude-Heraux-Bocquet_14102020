@@ -69,7 +69,8 @@ nav
 
 .nav-item-heb:hover
 {
-    border-bottom: 5px solid #0065fc;
+    border-top: 2px solid #0065fc;
+
 }
 
 .nav-item-act
@@ -81,7 +82,8 @@ nav
 
 .nav-item-act:hover
 {
-    border-bottom: 5px solid #0065fc;
+    border-top: 2px solid #0065fc;
+
 }
 
 .row-dec
